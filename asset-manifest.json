@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pwa-camera-example/static/css/main.6b5e1dcc.chunk.css",
-    "main.js": "/pwa-camera-example/static/js/main.a08d87ff.chunk.js",
-    "main.js.map": "/pwa-camera-example/static/js/main.a08d87ff.chunk.js.map",
+    "main.js": "/pwa-camera-example/static/js/main.20b720ca.chunk.js",
+    "main.js.map": "/pwa-camera-example/static/js/main.20b720ca.chunk.js.map",
     "runtime-main.js": "/pwa-camera-example/static/js/runtime-main.54716895.js",
     "runtime-main.js.map": "/pwa-camera-example/static/js/runtime-main.54716895.js.map",
     "static/js/2.f87b702f.chunk.js": "/pwa-camera-example/static/js/2.f87b702f.chunk.js",
     "static/js/2.f87b702f.chunk.js.map": "/pwa-camera-example/static/js/2.f87b702f.chunk.js.map",
     "index.html": "/pwa-camera-example/index.html",
-    "precache-manifest.0d0380719705859e4dce50801a968bfe.js": "/pwa-camera-example/precache-manifest.0d0380719705859e4dce50801a968bfe.js",
+    "precache-manifest.f5510a1e3e10565b919e303d8c498d00.js": "/pwa-camera-example/precache-manifest.f5510a1e3e10565b919e303d8c498d00.js",
     "service-worker.js": "/pwa-camera-example/service-worker.js",
     "static/css/main.6b5e1dcc.chunk.css.map": "/pwa-camera-example/static/css/main.6b5e1dcc.chunk.css.map",
     "static/js/2.f87b702f.chunk.js.LICENSE.txt": "/pwa-camera-example/static/js/2.f87b702f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.54716895.js",
     "static/js/2.f87b702f.chunk.js",
     "static/css/main.6b5e1dcc.chunk.css",
-    "static/js/main.a08d87ff.chunk.js"
+    "static/js/main.20b720ca.chunk.js"
   ]
 }
