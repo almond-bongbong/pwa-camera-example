@@ -25,7 +25,8 @@ function App() {
         <input
           id="take-photo"
           type="file"
-          accept="image/*;capture=camera"
+          accept="image/*"
+          capture="camera"
           onChange={upload}
         />
         <label htmlFor="take-photo">Take Photo</label>
