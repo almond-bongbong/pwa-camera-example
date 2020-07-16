@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/pwa-camera-example/static/css/main.1f5b32e9.chunk.css",
-    "main.js": "/pwa-camera-example/static/js/main.05da82eb.chunk.js",
-    "main.js.map": "/pwa-camera-example/static/js/main.05da82eb.chunk.js.map",
+    "main.css": "/pwa-camera-example/static/css/main.6b5e1dcc.chunk.css",
+    "main.js": "/pwa-camera-example/static/js/main.144a5037.chunk.js",
+    "main.js.map": "/pwa-camera-example/static/js/main.144a5037.chunk.js.map",
     "runtime-main.js": "/pwa-camera-example/static/js/runtime-main.54716895.js",
     "runtime-main.js.map": "/pwa-camera-example/static/js/runtime-main.54716895.js.map",
-    "static/js/2.496ed052.chunk.js": "/pwa-camera-example/static/js/2.496ed052.chunk.js",
-    "static/js/2.496ed052.chunk.js.map": "/pwa-camera-example/static/js/2.496ed052.chunk.js.map",
+    "static/js/2.cf26c2bc.chunk.js": "/pwa-camera-example/static/js/2.cf26c2bc.chunk.js",
+    "static/js/2.cf26c2bc.chunk.js.map": "/pwa-camera-example/static/js/2.cf26c2bc.chunk.js.map",
     "index.html": "/pwa-camera-example/index.html",
-    "precache-manifest.a8c3d095a5f2a8be1bfa798a3096a8e3.js": "/pwa-camera-example/precache-manifest.a8c3d095a5f2a8be1bfa798a3096a8e3.js",
+    "precache-manifest.ab71440b310fe1510d208c1a071796c1.js": "/pwa-camera-example/precache-manifest.ab71440b310fe1510d208c1a071796c1.js",
     "service-worker.js": "/pwa-camera-example/service-worker.js",
-    "static/css/main.1f5b32e9.chunk.css.map": "/pwa-camera-example/static/css/main.1f5b32e9.chunk.css.map",
-    "static/js/2.496ed052.chunk.js.LICENSE.txt": "/pwa-camera-example/static/js/2.496ed052.chunk.js.LICENSE.txt"
+    "static/css/main.6b5e1dcc.chunk.css.map": "/pwa-camera-example/static/css/main.6b5e1dcc.chunk.css.map",
+    "static/js/2.cf26c2bc.chunk.js.LICENSE.txt": "/pwa-camera-example/static/js/2.cf26c2bc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54716895.js",
-    "static/js/2.496ed052.chunk.js",
-    "static/css/main.1f5b32e9.chunk.css",
-    "static/js/main.05da82eb.chunk.js"
+    "static/js/2.cf26c2bc.chunk.js",
+    "static/css/main.6b5e1dcc.chunk.css",
+    "static/js/main.144a5037.chunk.js"
   ]
 }

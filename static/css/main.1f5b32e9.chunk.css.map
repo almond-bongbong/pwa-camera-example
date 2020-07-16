@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.module.scss"],"names":[],"mappings":"AAAA,gBACI,YAAa,CACb,qBAAsB","file":"main.1f5b32e9.chunk.css","sourcesContent":[".app {\n    height: 100vh;\n    background-color: #444;\n}"]}
