@@ -39,7 +39,7 @@ function App() {
           multiple={false}
           onChange={upload}
         />
-        <label htmlFor="upload">Upload Photo</label>
+        <label htmlFor="upload">Upload</label>
       </div>
 
       {preview && (
