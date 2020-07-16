@@ -11,12 +11,15 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+async function skipWait(registration: ServiceWorkerRegistration) {
+  if (registration && registration.waiting) {
+    await registration.unregister();
+    registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+    window.location.reload();
+  }
+}
+
 serviceWorker.register({
-  onUpdate: async (registration) => {
-    if (registration && registration.waiting) {
-      await registration.unregister();
-      registration.waiting.postMessage({ type: 'SKIP_WAITING' });
-      window.location.reload();
-    }
-  },
+  onUpdate: skipWait,
+  onSuccess: skipWait,
 });
