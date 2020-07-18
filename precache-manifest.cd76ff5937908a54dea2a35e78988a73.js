@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37db01ee9db0227dbfd8171bbeb384b2",
+    "revision": "57904a403775bad35a31d19c303562b8",
     "url": "/pwa-camera-example/index.html"
   },
   {
-    "revision": "513224edb979aa3953f9",
+    "revision": "72bc0fa74700bcfc5e54",
     "url": "/pwa-camera-example/static/css/main.1498f1eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pwa-camera-example/static/js/2.a854fc43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "513224edb979aa3953f9",
-    "url": "/pwa-camera-example/static/js/main.fdeb89ab.chunk.js"
+    "revision": "72bc0fa74700bcfc5e54",
+    "url": "/pwa-camera-example/static/js/main.49cc7ab4.chunk.js"
   },
   {
     "revision": "ed299688ecdb4edf0b76",
