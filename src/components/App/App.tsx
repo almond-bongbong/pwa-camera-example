@@ -6,7 +6,7 @@ import Camera from '../../pages/Camera';
 
 function App(): ReactElement {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={styles.app}>
         <Header />
 
