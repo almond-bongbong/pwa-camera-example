@@ -1,52 +1,22 @@
-import React, { ChangeEvent, useState } from 'react';
+import React, { ReactElement } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import styles from './App.module.scss';
+import Header from '../Header';
+import Camera from '../../pages/Camera';
 
-function App() {
-  const [preview, setPreview] = useState('');
-
-  const upload = (e: ChangeEvent<HTMLInputElement>) => {
-    console.log(e.target.files);
-    const { files } = e.target;
-
-    if (files && files.length > 0) {
-      const url = window.URL.createObjectURL(files[0]);
-      const image = new Image();
-      image.src = url;
-      image.onload = () => {
-        setPreview(image.src);
-        window.URL.revokeObjectURL(image.src);
-      };
-    }
-  };
-
+function App(): ReactElement {
   return (
-    <div className={styles.app}>
-      <div className={styles.camera}>
-        <input
-          id="take-photo"
-          type="file"
-          accept="image/*"
-          capture="camera"
-          onChange={upload}
-        />
-        <label htmlFor="take-photo">Take Photo</label>
-      </div>
+    <Router>
+      <div className={styles.app}>
+        <Header />
 
-      <div className={styles.camera}>
-        <input
-          id="upload"
-          type="file"
-          accept="image/x-png,image/jpeg,image/gif"
-          multiple={false}
-          onChange={upload}
-        />
-        <label htmlFor="upload">Upload Photo</label>
+        <Switch>
+          <Route path="/camera">
+            <Camera />
+          </Route>
+        </Switch>
       </div>
-
-      {preview && (
-        <img className={styles.preview} src={preview} alt="preview" />
-      )}
-    </div>
+    </Router>
   );
 }
 
