@@ -22,7 +22,7 @@ function Camera(): ReactElement {
   return (
     <div>
       <Helmet>
-        <link rel="manifest" href="/camera-manifest.json" />
+        <link rel="manifest" href={`${process.env.PUBLIC_URL}/camera-manifest.json`} />
       </Helmet>
       <div className={styles.camera}>
         <input
