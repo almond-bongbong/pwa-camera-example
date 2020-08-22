@@ -1,4 +1,5 @@
 import React, { ChangeEvent, ReactElement, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './Camera.module.scss';
 
 function Camera(): ReactElement {
@@ -20,6 +21,9 @@ function Camera(): ReactElement {
 
   return (
     <div>
+      <Helmet>
+        <link rel="manifest" href="/camera-manifest.json" />
+      </Helmet>
       <div className={styles.camera}>
         <input
           id="take-photo"
