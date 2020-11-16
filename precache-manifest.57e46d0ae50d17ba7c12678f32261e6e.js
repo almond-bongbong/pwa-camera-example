@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7741d396eab7c4285a5ceed5f34c0445",
+    "revision": "6aed7d2fa3742860794c1380f54f0224",
     "url": "/pwa-camera-example/index.html"
   },
   {
-    "revision": "ff5fbbeeed516fbded7b",
+    "revision": "b14b8e56b9f0324ef96c",
     "url": "/pwa-camera-example/static/css/main.1498f1eb.chunk.css"
   },
   {
-    "revision": "398d1d4b0b1896ee9740",
-    "url": "/pwa-camera-example/static/js/2.81d99722.chunk.js"
+    "revision": "1df469b0e5a49a4d74bc",
+    "url": "/pwa-camera-example/static/js/2.5a852467.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pwa-camera-example/static/js/2.81d99722.chunk.js.LICENSE.txt"
+    "url": "/pwa-camera-example/static/js/2.5a852467.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff5fbbeeed516fbded7b",
-    "url": "/pwa-camera-example/static/js/main.7be1dfbb.chunk.js"
+    "revision": "b14b8e56b9f0324ef96c",
+    "url": "/pwa-camera-example/static/js/main.b77c8ae9.chunk.js"
   },
   {
     "revision": "ed299688ecdb4edf0b76",
