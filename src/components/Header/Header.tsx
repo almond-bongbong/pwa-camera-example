@@ -5,7 +5,7 @@ import styles from './Header.module.scss'
 function Header(): ReactElement {
   return (
     <header className={styles.header}>
-      <NavLink to="/camera">Camera 5</NavLink>
+      <NavLink to="/camera">Camera 6</NavLink>
     </header>
   );
 }
