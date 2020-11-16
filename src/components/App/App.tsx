@@ -4,10 +4,12 @@ import styles from './App.module.scss';
 import Header from '../Header';
 import Camera from '../../pages/Camera';
 import About from '../../pages/About';
+import ServiceWorkerWrapper from '../../components/ServiceWorkerWrapper';
 
 function App(): ReactElement {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ServiceWorkerWrapper />
       <div className={styles.app}>
         <Header />
 
