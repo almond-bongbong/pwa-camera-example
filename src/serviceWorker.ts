@@ -13,24 +13,6 @@
 // eslint-disable-next-line no-restricted-globals
 const ignored = self.__WB_MANIFEST;
 
-const WORKBOX_CACHE_KEY = `workbox-precache-https://${window.location.hostname}/`;
-
-const clearFromCache = async (requests: string[]) => {
-  // eslint-disable-next-line no-restricted-globals
-  if ('caches' in self) {
-    const cache = await caches.open(WORKBOX_CACHE_KEY);
-    if (cache) {
-      await Promise.all(requests.map(r =>
-        cache.delete(r)
-      ));
-
-      requests.forEach(r => {
-        console.log(`Cache => delete[${r}]`);
-      });
-    }
-  }
-}
-
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -95,8 +77,8 @@ function registerValidSW(swUrl: string, config?: Config) {
         installingWorker.onstatechange = () => {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
-              console.log('New content is available; please refresh.');
-              clearFromCache(['/index.html']);
+              // eslint-disable-next-line no-restricted-globals
+              self.skipWaiting();
 
               // At this point, the updated precached content has been fetched,
               // but the previous service worker will still serve the older
